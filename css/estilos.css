@@ -391,13 +391,15 @@ body{
         display: flex;
         padding-left: 2rem;
         padding-right: 2rem;
+        padding-top: 0;
        
     }
 
     .section__div__parrafo {
-        padding-left: 2rem;
-        padding-right: 2rem;
-        font-size: 10px;
+        padding-left: 1rem;
+        padding-top: 1rem;
+        padding-right: 0.7rem;
+        font-size: 15px;
     }
 
     .footer{
@@ -425,6 +427,7 @@ body{
         padding-right: 1rem;
         padding-left: 1rem;
     }
+
 
 
 }
