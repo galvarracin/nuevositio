@@ -1,4 +1,5 @@
-*{  margin:0;
+*{  
+    margin:0;
     padding:0;
     box-sizing: border-box;
     text-decoration: none;
@@ -15,10 +16,9 @@
     display: flex;
     justify-content: space-between;
     text-decoration: none;
-    color: black;
     font-size: 2rem;
     padding-left: 1rem;
-
+    text-decoration: none;
     display:inline-block;
     padding-top: 1rem;
 
@@ -33,6 +33,7 @@
 }
 
 .header__nav__menu{
+    text-decoration: none;
     padding-top: 1rem;
     color: black;
     display: flex;
@@ -40,7 +41,9 @@
     font-size: 1.5rem;
     padding-right: 25rem;
     padding-left: 15rem;
-    }
+
+        
+}
 
    
 .header__nav__menu--active{
@@ -361,8 +364,11 @@ body{
 /*prueba*/
 
 
-.accordionFluscontenedor_descargashExample{
-    margin-left: 50 !important;
+.contenedor_descargas{
+    padding-left: 30rem;
+    padding-top: 3rem;
+    padding-right: 40rem;
+    !important
 }
 
 
