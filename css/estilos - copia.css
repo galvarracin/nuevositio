@@ -1,0 +1,476 @@
+*{  
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-size: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+
+
+/*HEADER PRINCIPAL*/
+.header__titulo{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    font-size: 2rem;
+    padding-left: 1rem;
+
+    display:inline-block;
+    padding-top: 1rem;
+
+
+}
+
+
+
+.header__titulo:hover{
+    color: rgba(19, 19, 138, 0.767);
+    font-size: 2rem;
+    filter: drop-shadow(0px 0px 10px grey)
+}
+
+.header__nav__menu{
+    text-decoration: none;
+    padding-top: 1rem;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    padding-right: 25rem;
+    padding-left: 15rem;
+        
+}
+
+   
+.header__nav__menu--active{
+        color: black;
+        filter: drop-shadow(0px 0px 10px grey);
+
+        
+    }
+
+.header__nav__menu--active:hover{
+    color: rgba(19, 19, 138, 0.767);
+    filter: drop-shadow(0px 0px 10px grey);
+
+}  
+
+.quieneshover:hover{
+    color: rgba(19, 19, 138, 0.767);
+    filter: drop-shadow(0px 0px 10px grey);
+
+}
+
+.novedadhover:hover{
+    color: rgba(19, 19, 138, 0.767);
+    filter: drop-shadow(0px 0px 10px grey);
+
+}
+
+.formhover:hover{
+    color: rgba(19, 19, 138, 0.767);
+    filter: drop-shadow(0px 0px 10px grey);
+
+
+}
+
+.servicioshover:hover{
+    color: rgba(19, 19, 138, 0.767);
+    filter: drop-shadow(0px 0px 10px grey)
+
+}
+
+.iniciohover:hover{
+    color: rgba(19, 19, 138, 0.767);
+    filter: drop-shadow(0px 0px 10px grey);
+
+}
+
+
+/*INDEX*/
+
+
+
+.main__contenedor__img{
+    padding-top: 2rem;
+    height: 600px;
+    width: 100%;
+}
+
+
+.main__contenedor__img__nombre{
+    font-size: 4rem;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 200);
+}
+    
+
+
+
+
+/*
+
+body{
+    background-image: url(../img/wall.jpg);
+    background-size: 100%;
+    
+    }   
+
+
+/*NOVEDADES*/
+
+.main__novedades{
+    display: flex;
+    padding-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*CALENDARIO AFIP*/
+.main__calendario__afip{
+    justify-items: center;
+    font-size:2rem;
+    color: darkblue;
+    
+}
+
+.main__calendario__imgafip{
+    display: flex;
+    padding-top: 1rem;
+    height: 80%;
+    filter: drop-shadow(5px 5px 12px grey);
+}
+
+.main__calendario__imgafip{
+    display: flex;
+    padding-top: 1rem;
+    height: 80%;
+    filter: drop-shadow(5px 5px 12px grey);
+}
+
+
+
+/*CALENDARIOS ARBA*/
+
+
+/**
+.main__calendario__arba{
+    padding-top: 2rem;
+    justify-items: center;
+    font-size:2rem;
+    color: darkblue;
+
+    
+}
+
+.main__calendario__imgarba{
+    display: flex;
+    padding-top: 1rem;
+    height: 80%;
+    filter: drop-shadow(5px 5px 12px grey)
+}
+
+
+.main__calendario__arba2{
+    padding-top: 2rem;
+    justify-items: center;
+    font-size:2rem;
+    color: darkblue;
+
+    
+}
+
+.main__calendario__imgarba2{
+    display: flex;
+    padding-top: 1rem;
+    height: 80%;
+    filter: drop-shadow(5px 5px 12px grey)
+}
+
+
+
+.main__calendario__arba3{
+    padding-top: 2rem;
+    justify-items: center;
+    font-size:2rem;
+    color: darkblue;
+
+    
+}
+
+.main__calendario__imgarba3{
+    display: flex;
+    padding-top: 1rem;
+    height: 80%;
+    filter: drop-shadow(5px 5px 12px grey);
+    
+}
+
+
+.
+
+.main__calendario__arba4{
+    padding-top: 2rem;
+    justify-items: center;
+    font-size:2rem;
+    color: darkblue;
+
+    
+}
+
+*//
+
+.quitarsubrayado{
+    text-decoration:none
+}
+
+
+//*
+.main__calendario__imgarba4{
+    display: flex;
+    padding-top: 1rem;
+    height: 80%;
+    filter: drop-shadow(5px 5px 12px grey)
+}
+**/
+
+/*SERVICIOS*/
+/*
+.border{
+    border: 1px solid blue;
+}*/
+/*
+.border1{
+    padding: 1rem;
+    border: 1px solid red;
+}
+*/
+
+#main__contenedor{
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    grid-template-rows: 150px ;
+    grid-template-areas: "main__contenedor__auditorias main__contenedor__monotributo main__contenedor__impuestos main__contenedor__pymes main__contenedor__domestico"
+        gap: 20px;
+    justify-content: center;
+
+}
+    
+.texto {
+    display: none;
+    padding-right: 26rem;
+    padding-left: 23rem;
+}
+      
+.visible {
+    display: block;
+}
+
+.main__contenedor_auditorias{
+    grid-area: main__contenedor__auditorias;
+}
+
+.main__contenedor__monotributo{
+    grid-area: main__contenedor__monotributo;
+}
+
+.main__contenedor__impuestos{
+    grid-area: main__contenedor__impuestos;
+}
+
+.main__contenedor__pymes{
+    grid-area: main__contenedor__pymes;
+}
+
+
+.main__contenedor__domestico{
+    grid-area: main__contenedor__domestico;
+}
+
+
+#texto1{
+    font-size: 15px;
+}
+
+#texto2{
+    font-size: 15px;
+}
+
+#texto3{
+    font-size: 15px;
+}
+
+#texto4{
+    font-size: 15px;
+}
+
+#texto5{
+    font-size: 15px;
+}
+
+.size-img_servicios{
+    height: 100px;
+    width: 100px;
+}
+
+
+.size-img_servicios:hover{
+    filter: drop-shadow(0px 0px 10px grey)
+}
+
+/*EL ESTUDIO*/
+
+.section__div{
+    padding: 2rem;
+    display: flex;
+}
+
+.section__div__parrafo{
+    font-size: 15px;
+     padding-left: 22rem;
+    padding-right: 22rem;
+    padding-top: 2rem;
+
+}
+
+
+/*CONTACTO*/
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding-left: 40rem;
+    padding-right: 40rem;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+
+/*FOOTER*/
+ 
+
+.footer__contacto{
+    position:fixed;
+    bottom: 0;
+    left: 20rem;
+    right: 0;
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+
+/*
+
+/*prueba*/
+
+
+.contenedor_descargas{
+    padding-left: 30rem;
+    padding-top: 3rem;
+    padding-right: 40rem;
+    text-decoration: none;
+}
+*/
+
+
+
+
+/* MOBILE */
+
+@media screen and (max-width:425px) {
+
+    .header__titulo {
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        color: black;
+        font-size: 17px;
+        padding-left: 10px;
+        display: inline-block;
+        padding-top: 0.5rem;
+    }     
+
+    .header__nav__menu {
+        padding-top: 1rem;
+        color: black;
+        display: flex;
+        justify-content: space-around;
+        font-size: 15px;
+        padding-right: 3rem;
+        padding-left: 3rem;
+    }
+    .main__contenedor__img {
+        padding-top: 0.5rem;
+        height: 300px;
+        width: 100%;
+    }
+    
+    .section__div {
+        display: flex;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 0;
+       
+    }
+
+    .section__div__parrafo {
+        padding-left: 1rem;
+        padding-top: 1rem;
+        padding-right: 0.7rem;
+        font-size: 15px;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    .size-img_servicios {
+        height: 60px;
+        width: 60px;
+    }
+
+    #main__contenedor{
+        padding-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(5, 60px);
+        grid-template-rows: 60px ;
+        grid-template-areas: "main__contenedor__auditorias main__contenedor__monotributo main__contenedor__impuestos main__contenedor__pymes main__contenedor__domestico"
+            gap: 20px;
+        justify-content: center;
+    
+    }
+
+    .texto {
+        padding-top: 1rem;
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MOBILE */
