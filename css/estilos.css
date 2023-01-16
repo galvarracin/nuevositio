@@ -96,24 +96,6 @@
 
 
 
-.div__video{
-    margin: 0;
-    position: fixed;
-}
-
-
-.div__ body__box{
-position:  relative;
-
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-  transform: translateX(calc((100% - 100vw) / 2));
-  z-index: -2;
-
-}
-
 
 
 
@@ -582,6 +564,11 @@ position:  relative;
         padding-bottom: 0.6rem;
     }
 
+    
+
+}
+
+
 }
 
 /* FIN 425 PX */
@@ -610,9 +597,9 @@ position:  relative;
         color: black;
         display: flex;
         justify-content: space-around;
-        font-size: 15px;
-        padding-right: 0.2rem;
-        padding-left: 0.2rem;
+        font-size: 10px;
+        padding-right: 0rem;
+        padding-left: 2rem;
     }
     
     
@@ -684,6 +671,7 @@ position:  relative;
     }
 
 }
+ 
 
 /* FIN 320 PX */
 
