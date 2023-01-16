@@ -96,6 +96,27 @@
 
 
 
+.div__video{
+    margin: 0;
+    position: fixed;
+}
+
+
+.div__ body__box{
+position:  relative;
+
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  transform: translateX(calc((100% - 100vw) / 2));
+  z-index: -2;
+
+}
+
+
+
+
 .main__contenedor__img{
     padding-top: 2rem;
     height: 600px;
