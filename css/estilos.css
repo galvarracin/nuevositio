@@ -7,7 +7,6 @@
     font-size: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     --bs-border-width:0px;
-
 }
 
 
@@ -85,7 +84,7 @@
 .header__titulo:hover{
     color: rgba(19, 19, 138, 0.767);
     font-size: 2rem;
-    filter: drop-shadow(0px 0px 10px grey)
+    filter: drop-shadow(0px 0px 10px grey);
 }
 
 .header__nav__menu{
