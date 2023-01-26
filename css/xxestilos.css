@@ -7,7 +7,6 @@
     font-size: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     --bs-border-width:0px;
-
 }
 
 
@@ -15,23 +14,17 @@
 
 
 .navbar{
---bs-navbar-brand-margin-end: 35rem
-;
+--bs-navbar-brand-margin-end: 10rem;
 
   }
 
 
 .navbar-brand{
-        font-size:30px;
-        color: #C5EDFF;
-       
+        font-size:1.8rem;
+        
+    
+        !important
 }
-
-.nav-link{
-    color: #C5EDFF;
-    font-size: 25px;
-}
-
 
 
 
@@ -53,22 +46,23 @@
  }
 
 
+ .navbar-toggler{
+    color: white;
+ }
+ 
+ .nav-item{
+    color: rgb(215, 19, 19);
+    font-size: 1.4rem;
+    
+ }
+
+
 
 
 
 
 
 /*HEADER PRINCIPAL*/
-
-.nav_link:active{
-    color: red;
-    font-size: 30px;
-}
-
-
-
-
-
 .header__titulo{
     display: flex;
     justify-content: space-between;
@@ -86,7 +80,7 @@
 .header__titulo:hover{
     color: rgba(19, 19, 138, 0.767);
     font-size: 2rem;
-    filter: drop-shadow(0px 0px 10px grey)
+    filter: drop-shadow(0px 0px 10px grey);
 }
 
 .header__nav__menu{
@@ -156,8 +150,8 @@
 
 
 .body__video{
-position:  relative;
 
+  position:  relative;
   right: 0;
   bottom: 0;
   min-width: 100%;
@@ -175,14 +169,7 @@ position:  relative;
     height: 600px;
     width: 100%;
 }
-
-/*
-.body{
-    background-image: url(../img/wall.jpg);
-    background-size: 100%;
-    
-    }   */
-
+z
 
 /*NOVEDADES*/
 .contenedor_descargas{
@@ -282,10 +269,10 @@ position:  relative;
 }
 
 .section__div__parrafo{
-    font-size: 15px;
-     padding-left: 22rem;
-    padding-right: 22rem;
-    padding-top: 2rem;
+    font-size: 20px;
+     padding-left: 25rem;
+    padding-right: 40rem;
+    padding-top: 5rem;
 
 }
 
@@ -296,10 +283,11 @@ position:  relative;
     display: flex;
     flex-direction: column;
     padding-left: 40rem;
-    padding-right: 40rem;
+    padding-right: 60rem;
     padding-top: 5rem;
     padding-bottom: 10rem;
 }
+
 
 
 /*FOOTER*/
@@ -323,12 +311,6 @@ position:  relative;
 /* MOBILE 1024  */
 
 @media screen and (max-width:1024px) {
-
-
-
-
-
-
 
     .header__titulo {
         display: flex;
