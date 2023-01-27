@@ -12,11 +12,6 @@
 
 
 
-
-
-
-
-
 /*HEADER*/
 .navbar{
 --bs-navbar-brand-margin-end: 35rem;
@@ -33,6 +28,7 @@
     font-size: 20px;
 }
 
+
 .video{
     width: 100%;
 
@@ -45,16 +41,9 @@
     left: 0;
     width: 100%;
     height: auto;
-  
+    
     object-fit: cover;
  }
-
-
-
-
-
-
-
 
 
 
@@ -152,14 +141,18 @@ position:  relative;
 }
 
 /*NOVEDADES*/
-.contenedor_descargas{
-    padding-left: 30rem;
+
+#accordionFlushExample{
+    padding-left: 25rem;
     padding-top: 3rem;
     padding-right: 40rem;
     !important
 }
 
 
+
+
+/*SERVICIOS*/
 
 
 #main__contenedor{
@@ -237,7 +230,6 @@ position:  relative;
 
 }
 
---bs-border-width: 0px;
 
 
 
@@ -310,7 +302,7 @@ position:  relative;
         
         .nav-link{
             color: #C5EDFF;
-            font-size: 25px;
+            font-size: 20px;
         }
         
         .video{
@@ -330,11 +322,12 @@ position:  relative;
 
     
 
-         .contenedor_descargas{
-            padding-left: 3rem;
-            padding-top: 3rem;
-            padding-right: 16rem;
-            !important
+         
+        #accordionFlushExample{
+         padding-left: 2rem;
+        padding-top: 0rem;
+        padding-right: 5rem;
+        !important
         }
         
 
@@ -432,7 +425,7 @@ position:  relative;
         padding-top: 2.5rem;
         padding-bottom: 0.6rem;
     }
-
+  }
 /*INDEX*/
 
 
@@ -696,131 +689,6 @@ position:  absolute;
 
 
 /* FIN 425 PX */
-
-
-
-
-
-/* MOBILE 320  */
-
-@media screen and (max-width:320px) {
-
-    .header__titulo {
-        display: flex;
-        justify-content: space-between;
-        text-decoration: none;
-        color: black;
-        font-size: 17px;
-        padding-left: 10px;
-        display: inline-block;
-        padding-top: 0.5rem;
-    }     
-
-    .header__nav__menu {
-        padding-top: 1rem;
-        color: black;
-        display: flex;
-        justify-content: space-around;
-        font-size: 15px;
-        padding-right: 0.2rem;
-        padding-left: 0.2rem;
-    }
-    
-    
-    .section__div {
-        display: flex;
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-top: 0;
-       
-    }
-
-    .section__div__parrafo {
-        padding-left: 0.1rem;
-        padding-top: 1rem;
-        padding-right: 0.rem;
-        font-size: 15px;
-    }
-
-    .footer{
-        display: none;
-    }
-
-    .size-img_servicios {
-        height: 60px;
-        width: 60px;
-    }
-
-    #main__contenedor{
-        padding-top: 2rem;
-        display: grid;
-        grid-template-columns: repeat(5, 60px);
-        grid-template-rows: 60px ;
-        grid-template-areas: "main__contenedor__auditorias main__contenedor__monotributo main__contenedor__impuestos main__contenedor__pymes main__contenedor__domestico"
-            gap: 20px;
-        justify-content: center;
-    
-    }
-
-    .texto {
-        padding-top: 1rem;
-        padding-right: 1rem;
-        padding-left: 1rem;
-    }
-
-
-    .main__contenedor__img {
-        padding-top: 0.5rem;
-        height: 300px;
-        width: 100%;
-    }    
-
-    .main__contenedor__img__nombre{
-        font-size: 1.5rem;
-        color: white;
-        position: absolute;
-        top: 25%;
-        left: 20%;
-        text-shadow: 10px 10px 10px rgba(0, 0, 0, 200);
-    }
-
-
-    .formulario{
-        display: flex;
-        flex-direction: column;
-        padding-left: 4rem;
-        padding-right: 4rem;
-        padding-top: 1rem;
-        padding-bottom: 0.6rem;
-    }
-
-/*INDEX*/
-.body{
-    margin: 0;
-    position: fixed;
-}
-
-
-.body__video{
-position:  relative;
-
-  right: 0;
-  bottom: 0;
-  min-width: 500%;
-  min-height: 50%;
-  transform: translateX(calc((100% - 100vw) / 2));
-  z-index: -2;
-
-}
-
-
-
-
-
-}
-
-/* FIN 320 PX */
-
 
 
 
