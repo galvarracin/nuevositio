@@ -1,0 +1,17 @@
+/*NAV*/
+
+.navbar{
+    --bs-navbar-brand-margin-end: 35rem;
+    }
+
+
+    .navbar-brand{
+        font-size:30px;
+        color: $color_letras_header;
+}
+
+.nav-link{
+    color: $color_letras_header;
+    font-size: 20px;
+}
+/*FIN NAV*/

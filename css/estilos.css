@@ -31,8 +31,6 @@
 
 .video{
     width: 100%;
-
-
 }
 
 .video__main{
@@ -47,78 +45,14 @@
 
 
 
-.header__titulo:hover{
-    color: rgba(19, 19, 138, 0.767);
-    font-size: 2rem;
-    filter: drop-shadow(0px 0px 10px grey)
-}
-
-.header__nav__menu{
-    text-decoration: none;
-    padding-top: 1rem;
-    color: black;
-    display: flex;
-    justify-content: space-around;
-    font-size: 1.5rem;
-    padding-right: 25rem;
-    padding-left: 15rem;
-
-        
-}
-
-   
-.header__nav__menu--active{
-        color: black;
-        filter: drop-shadow(0px 0px 10px grey);
-
-        
-    }
-
-.header__nav__menu--active:hover{
-    color: rgba(19, 19, 138, 0.767);
-    filter: drop-shadow(0px 0px 10px grey);
-
-}  
-
-.quieneshover:hover{
-    color: rgba(19, 19, 138, 0.767);
-    filter: drop-shadow(0px 0px 10px grey);
-
-}
-
-.novedadhover:hover{
-    color: rgba(19, 19, 138, 0.767);
-    filter: drop-shadow(0px 0px 10px grey);
-
-}
-
-.formhover:hover{
-    color: rgba(19, 19, 138, 0.767);
-    filter: drop-shadow(0px 0px 10px grey);
-
-
-}
-
-.servicioshover:hover{
-    color: rgba(19, 19, 138, 0.767);
-    filter: drop-shadow(0px 0px 10px grey)
-
-}
-
-.iniciohover:hover{
-    color: rgba(19, 19, 138, 0.767);
-    filter: drop-shadow(0px 0px 10px grey);
-
-}
-
-
 /*INDEX*/
+/*
 .body{
     margin: 0;
     position: fixed;
 }
 
-
+/*
 .body__video{
 position:  relative;
 
@@ -129,18 +63,34 @@ position:  relative;
   transform: translateX(calc((100% - 100vw) / 2));
   z-index: -2;
 
-}
+}*/
 
 
 
 
 /*NOVEDADES*/
 
+
+.body__general{
+    background-color: $color_fondo_principal;
+   
+}
 .contenedor_descargas{
     padding-left: 30rem;
     padding-top: 3rem;
     padding-right: 40rem;
     text-decoration: none;
+    background-color: $color_fondo_principal;
+}
+
+.accordion-item{
+    background-color: $color_fondo_principal;
+
+}
+
+.accordion-button{
+    background-color: #dee2e6;
+
 }
 
 
@@ -172,7 +122,7 @@ position:  relative;
     display: block;
 }
 
-.main__contenedor_auditorias{
+.main__contenedor__auditorias{
     grid-area: main__contenedor__auditorias;
 }
 
@@ -230,6 +180,8 @@ position:  relative;
 
 
 /*EL ESTUDIO*/
+
+
 
 .section__div{
     padding: 2rem;
@@ -567,17 +519,6 @@ position:  absolute;
 
 
 }
-
-
-/*
-.contenedor_descargas{
-    padding-left: 0rem;
-    padding-top: 3rem;
-    padding-right: 18rem;
-    text-decoration: none;
-}
-
-*/
 
 
 

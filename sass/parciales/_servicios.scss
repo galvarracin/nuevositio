@@ -1,0 +1,81 @@
+/*SERVICIOS*/
+
+.body__general{
+    background-color: $fondo_general;
+   
+}
+
+#main__contenedor{
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    grid-template-rows: 150px ;
+    grid-template-areas: "main__contenedor__auditorias main__contenedor__monotributo main__contenedor__impuestos main__contenedor__pymes main__contenedor__domestico"
+    gap 20px;
+    justify-content: center;
+
+}
+    
+.texto {
+    display: none;
+    padding-right: 31rem;
+    padding-left: 31rem;
+}
+      
+.visible {
+    display: block;
+}
+
+.main__contenedor__auditorias{
+    grid-area: main__contenedor__auditorias;
+}
+
+.main__contenedor__monotributo{
+    grid-area: main__contenedor__monotributo;
+}
+
+.main__contenedor__impuestos{
+    grid-area: main__contenedor__impuestos;
+}
+
+.main__contenedor__pymes{
+    grid-area: main__contenedor__pymes;
+}
+
+
+.main__contenedor__domestico{
+    grid-area: main__contenedor__domestico;
+}
+
+
+#texto1{
+    font-size: 15px;
+}
+
+#texto2{
+    font-size: 15px;
+}
+
+#texto3{
+    font-size: 15px;
+}
+
+#texto4{
+    font-size: 15px;
+}
+
+#texto5{
+    font-size: 15px;
+}
+
+.size-img_servicios{
+    height: 100px;
+    width: 100px;
+}
+
+
+.size-img_servicios:hover{
+    filter: drop-shadow(0px 0px 10px rgb(38, 85, 227))
+    
+
+}
