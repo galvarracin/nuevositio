@@ -1,210 +1,3 @@
-*{  
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
-    font-size: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    --bs-border-width:0px;
-
-}
-
-
-
-/*HEADER*/
-.navbar{
---bs-navbar-brand-margin-end: 35rem;
-}
-
-
-.navbar-brand{
-        font-size:30px;
-        color: #C5EDFF;
-}
-
-.nav-link{
-    color: #C5EDFF;
-    font-size: 20px;
-}
-
-
-.video{
-    width: 100%;
-}
-
-.video__main{
-    position: fixed;
-    top: 4.7    rem;
-    left: 0;
-    width: 100%;
-    height: auto;
-    
-    object-fit: cover;
- }
-
-
-
-
-/*NOVEDADES*/
-
-
-.body__general{
-    background-color: $fondo_general;
-   
-}
-.contenedor_descargas{
-    padding-left: 30rem;
-    padding-top: 3rem;
-    padding-right: 40rem;
-    text-decoration: none;
-    background-color: $fondo_general;
-}
-
-.accordion-item{
-    background-color: $fondo_general;
-
-}
-
-.accordion-button{
-    background-color: $fondo_general;
-
-}
-
-
-
-
-
-
-/*SERVICIOS*/
-
-
-#main__contenedor{
-    padding-top: 2rem;
-    display: grid;
-    grid-template-columns: repeat(5, 150px);
-    grid-template-rows: 150px ;
-    grid-template-areas: "main__contenedor__auditorias main__contenedor__monotributo main__contenedor__impuestos main__contenedor__pymes main__contenedor__domestico"
-    gap 20px;
-    justify-content: center;
-
-}
-    
-.texto {
-    display: none;
-    padding-right: 31rem;
-    padding-left: 31rem;
-}
-      
-.visible {
-    display: block;
-}
-
-.main__contenedor__auditorias{
-    grid-area: main__contenedor__auditorias;
-}
-
-.main__contenedor__monotributo{
-    grid-area: main__contenedor__monotributo;
-}
-
-.main__contenedor__impuestos{
-    grid-area: main__contenedor__impuestos;
-}
-
-.main__contenedor__pymes{
-    grid-area: main__contenedor__pymes;
-}
-
-
-.main__contenedor__domestico{
-    grid-area: main__contenedor__domestico;
-}
-
-
-#texto1{
-    font-size: 15px;
-}
-
-#texto2{
-    font-size: 15px;
-}
-
-#texto3{
-    font-size: 15px;
-}
-
-#texto4{
-    font-size: 15px;
-}
-
-#texto5{
-    font-size: 15px;
-}
-
-.size-img_servicios{
-    height: 100px;
-    width: 100px;
-}
-
-
-.size-img_servicios:hover{
-    filter: drop-shadow(0px 0px 10px rgb(38, 85, 227))
-    
-
-}
-
-
-
-
-/*EL ESTUDIO*/
-
-
-
-.section__div{
-    padding: 2rem;
-    display: flex;
-}
-
-.section__div__parrafo{
-    font-size: 20px;
-    padding-left: 25rem;
-    padding-right: 25rem;
-    padding-top: 3rem;
-
-}
-
-
-/*CONTACTO*/
-
-.formulario{
-    display: flex;
-    flex-direction: column;
-    padding-left: 40rem;
-    padding-right: 40rem;
-    padding-top: 5rem;
-    padding-bottom: 10rem;
-}
-
-
-/*FOOTER*/
- 
-
-.footer__contacto{
-    position:fixed;
-    bottom: 0;
-    left: 20rem;
-    right: 0;
-    width: 100%;
-    padding-bottom: 2rem;
-}
-
-
-
-
-
-
-
 /* MOBILE 1024  */
 
 @media screen and (max-width:1024px) {
@@ -246,55 +39,49 @@
             object-fit: cover;
          }
 
+
+         .contenedor_descargas{
+            padding-left: 0rem;
+            padding-top: 3rem;
+            padding-right: 18rem;
+            text-decoration: none;
+        }
+        
+        .header__titulo {
+            display: flex;
+            justify-content: space-between;
+            text-decoration: none;
+            color: black;
+            font-size: 25px;
+            padding-left: 10px;
+            display: inline-block;
+            padding-top: 0.5rem;
+            header__nav__menu {
+                padding-top: 1rem;
+                color: black;
+                display: flex;
+                justify-content: space-around;
+                font-size: 26px;
+                padding-right: 3rem;
+                padding-left: 3rem;
+        }     
+
+        .section__div {
+            display: flex;
+            padding-left: 2rem;
+            padding-right: 2rem;
+            padding-top: 0;
+           
+        }
     
-.contenedor_descargas{
-    padding-left: 0rem;
-    padding-top: 3rem;
-    padding-right: 18rem;
-    text-decoration: none;
-}
+        .section__div__parrafo {
+            padding-left: 1rem;
+            padding-top: 3rem;
+            padding-right: 0.7rem;
+            font-size: 15px;
+        }
 
-
-
-
-
-    .header__titulo {
-        display: flex;
-        justify-content: space-between;
-        text-decoration: none;
-        color: black;
-        font-size: 25px;
-        padding-left: 10px;
-        display: inline-block;
-        padding-top: 0.5rem;
-    }     
-
-    .header__nav__menu {
-        padding-top: 1rem;
-        color: black;
-        display: flex;
-        justify-content: space-around;
-        font-size: 26px;
-        padding-right: 3rem;
-        padding-left: 3rem;
-    }
-    
-    
-    .section__div {
-        display: flex;
-        padding-left: 2rem;
-        padding-right: 2rem;
-        padding-top: 0;
-       
-    }
-
-    .section__div__parrafo {
-        padding-left: 1rem;
-        padding-top: 3rem;
-        padding-right: 0.7rem;
-        font-size: 15px;
-    }
-
+        
     .footer{
         display: none;
     }
@@ -309,8 +96,7 @@
         display: grid;
         grid-template-columns: repeat(5, 100px);
         grid-template-rows: 60px ;
-        grid-template-areas: "main__contenedor__auditorias main__contenedor__monotributo main__contenedor__impuestos main__contenedor__pymes main__contenedor__domestico"
-            gap: 20px;
+        grid-template-areas: "main__contenedor__auditorias main__contenedor__monotributo main__contenedor__impuestos main__contenedor__pymes main__contenedor__domestico";
         justify-content: center;
     
     }
@@ -323,14 +109,13 @@
 
 
 
+    
 
     .main__contenedor__img {
         padding-top: 0.5rem;
         height: 300px;
         width: 100%;
-    }    
-
-    .main__contenedor__img__nombre{
+        &__nombre{
         font-size: 1.5rem;
         color: white;
         position: absolute;
@@ -338,43 +123,35 @@
         left: 20%;
         text-shadow: 10px 10px 10px rgba(0, 0, 0, 200);
     }
+}
 
 
-    .formulario{
-        display: flex;
-        flex-direction: column;
-        padding-left: 17rem;
-        padding-right: 17rem;
-        padding-top: 2.5rem;
-        padding-bottom: 0.6rem;
-    }
-  }
+.formulario{
+    display: flex;
+    flex-direction: column;
+    padding-left: 17rem;
+    padding-right: 17rem;
+    padding-top: 2.5rem;
+    padding-bottom: 0.6rem;
+}
 /*INDEX*/
 
 
 .body{
     display: flex;
     margin: 0;
+    &__video{
+    position:  absolute;
+    right: 0rem;
+    bottom: 0;
+    transform: translateX(calc((100% - 100vw) / 2));
+    z-index: -2;
+}
+
 }
 
 
-.body__video{
-position:  absolute;
-
-  right: 0rem;
-  bottom: 0;
-  transform: translateX(calc((100% - 100vw) / 2));
-  z-index: -2;
-
-}
-
-
-
-
-
-
-
-/* FIN 1024 PX */
+ /* FIN 1024 PX */
 
 
 
@@ -443,7 +220,7 @@ position:  absolute;
         display: grid;
         grid-template-columns: repeat(5, 80px);
         grid-template-rows: 60px ;
-        grid-template-areas: "main__contenedor__auditorias main__contenedor__monotributo main__contenedor__impuestos main__contenedor__pymes main__contenedor__domestico"
+        grid-template-areas: "main__contenedor__auditorias main__contenedor__monotributo main__contenedor__impuestos main__contenedor__pymes main__contenedor__domestico";
             gap: 30px;
         justify-content: center;
     
@@ -464,7 +241,7 @@ position:  absolute;
         padding-left: 13rem;
         padding-right: 15rem;
         padding-top: 3rem;
-        padding-bottom: ;
+        padding-bottom: 0;
     }
     
 
@@ -562,7 +339,7 @@ position:  absolute;
         display: grid;
         grid-template-columns: repeat(5, 60px);
         grid-template-rows: 60px ;
-        grid-template-areas: "main__contenedor__auditorias main__contenedor__monotributo main__contenedor__impuestos main__contenedor__pymes main__contenedor__domestico"
+        grid-template-areas: "main__contenedor__auditorias main__contenedor__monotributo main__contenedor__impuestos main__contenedor__pymes main__contenedor__domestico";
             gap: 20px;
         justify-content: center;
     
@@ -619,13 +396,11 @@ position:  absolute;
     padding-top: 3rem;
     padding-right: 2rem;
     text-decoration: none;
-}
-   
-}
 
+  }   
+}
+ }
+
+ }
 
 /* FIN 425 PX */
-
-
-
-

@@ -141,3 +141,252 @@
   padding-right: 40rem;
   padding-top: 5rem;
   padding-bottom: 10rem; }
+
+/* MOBILE 1024  */
+@media screen and (max-width: 1024px) {
+  .navbar-expand-lg {
+    flex-wrap: wrap;
+    justify-content: flex-start; }
+  .navbar {
+    --bs-navbar-brand-margin-end: 35rem; }
+  .navbar-brand {
+    font-size: 30px;
+    color: #C5EDFF; }
+  .nav-link {
+    color: #C5EDFF;
+    font-size: 20px; }
+  .video {
+    width: 100%; }
+  .video__main {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: auto;
+    object-fit: cover; }
+  .contenedor_descargas {
+    padding-left: 0rem;
+    padding-top: 3rem;
+    padding-right: 18rem;
+    text-decoration: none; }
+  .header__titulo {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    padding-left: 10px;
+    display: inline-block;
+    padding-top: 0.5rem;
+    /*INDEX*/
+    /* FIN 1024 PX */
+    /* MOBILE 768  */
+    /* FIN 768*/
+    /* MOBILE 425  */ }
+    .header__titulo header__nav__menu {
+      padding-top: 1rem;
+      color: black;
+      display: flex;
+      justify-content: space-around;
+      font-size: 26px;
+      padding-right: 3rem;
+      padding-left: 3rem; }
+    .header__titulo .section__div {
+      display: flex;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      padding-top: 0; }
+    .header__titulo .section__div__parrafo {
+      padding-left: 1rem;
+      padding-top: 3rem;
+      padding-right: 0.7rem;
+      font-size: 15px; }
+    .header__titulo .footer {
+      display: none; }
+    .header__titulo .size-img_servicios {
+      height: 60px;
+      width: 60px; }
+    .header__titulo #main__contenedor {
+      padding-top: 2rem;
+      display: grid;
+      grid-template-columns: repeat(5, 100px);
+      grid-template-rows: 60px;
+      grid-template-areas: "main__contenedor__auditorias main__contenedor__monotributo main__contenedor__impuestos main__contenedor__pymes main__contenedor__domestico";
+      justify-content: center; }
+    .header__titulo .texto {
+      padding-top: 1rem;
+      padding-right: 10rem;
+      padding-left: 6rem; }
+    .header__titulo .main__contenedor__img {
+      padding-top: 0.5rem;
+      height: 300px;
+      width: 100%; }
+      .header__titulo .main__contenedor__img__nombre {
+        font-size: 1.5rem;
+        color: white;
+        position: absolute;
+        top: 25%;
+        left: 20%;
+        text-shadow: 10px 10px 10px black; }
+    .header__titulo .formulario {
+      display: flex;
+      flex-direction: column;
+      padding-left: 17rem;
+      padding-right: 17rem;
+      padding-top: 2.5rem;
+      padding-bottom: 0.6rem; }
+    .header__titulo .body {
+      display: flex;
+      margin: 0; }
+      .header__titulo .body__video {
+        position: absolute;
+        right: 0rem;
+        bottom: 0;
+        transform: translateX(calc((100% - 100vw) / 2));
+        z-index: -2; } }
+  @media screen and (max-width: 1024px) and (max-width: 768px) {
+    .header__titulo .header__titulo {
+      display: flex;
+      justify-content: space-between;
+      text-decoration: none;
+      color: black;
+      font-size: 25px;
+      padding-left: 10px;
+      display: inline-block;
+      padding-top: 0.5rem; }
+    .header__titulo .header__nav__menu {
+      padding-top: 1rem;
+      color: black;
+      display: flex;
+      justify-content: space-around;
+      font-size: 20px;
+      padding-right: 4rem;
+      padding-left: 0rem; }
+    .header__titulo .section__div {
+      display: flex;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      padding-top: 0; }
+    .header__titulo .section__div__parrafo {
+      padding-left: 1rem;
+      padding-top: 2rem;
+      padding-right: 0.7rem;
+      font-size: px; }
+    .header__titulo .footer__contacto {
+      position: fixed;
+      bottom: 0;
+      left: 2rem;
+      right: 10rem;
+      font-size: 15px;
+      width: 100%;
+      padding-bottom: 1rem; }
+    .header__titulo .size-img_servicios {
+      height: 60px;
+      width: 60px; }
+    .header__titulo #main__contenedor {
+      padding-top: 2rem;
+      display: grid;
+      grid-template-columns: repeat(5, 80px);
+      grid-template-rows: 60px;
+      grid-template-areas: "main__contenedor__auditorias main__contenedor__monotributo main__contenedor__impuestos main__contenedor__pymes main__contenedor__domestico";
+      gap: 30px;
+      justify-content: center; }
+    .header__titulo .texto {
+      padding-top: 1rem;
+      padding-right: 1rem;
+      padding-left: 1rem; }
+    .header__titulo .formulario {
+      display: flex;
+      flex-direction: column;
+      padding-left: 13rem;
+      padding-right: 15rem;
+      padding-top: 3rem;
+      padding-bottom: 0; }
+    .header__titulo .main__contenedor__img {
+      padding-top: 0.5rem;
+      height: 300px;
+      width: 100%; }
+    .header__titulo .main__contenedor__img__nombre {
+      font-size: 1.5rem;
+      color: white;
+      position: absolute;
+      top: 25%;
+      left: 20%;
+      text-shadow: 10px 10px 10px black; }
+    .header__titulo .contenedor_descargas {
+      padding-left: 0rem;
+      padding-top: 3rem;
+      padding-right: 8rem;
+      text-decoration: none; } }
+  @media screen and (max-width: 1024px) and (max-width: 425px) {
+    .header__titulo .header__titulo {
+      display: flex;
+      justify-content: space-between;
+      text-decoration: none;
+      color: black;
+      font-size: 17px;
+      padding-left: 10px;
+      display: inline-block;
+      padding-top: 0.5rem; }
+    .header__titulo .header__nav__menu {
+      padding-top: 1rem;
+      color: black;
+      display: flex;
+      justify-content: space-around;
+      font-size: 15px;
+      padding-right: 3rem;
+      padding-left: 3rem; }
+    .header__titulo .section__div {
+      display: flex;
+      padding-left: 2rem;
+      padding-right: 2rem;
+      padding-top: 0; }
+    .header__titulo .section__div__parrafo {
+      padding-left: 1rem;
+      padding-top: 1rem;
+      padding-right: 0.7rem;
+      font-size: 15px; }
+    .header__titulo .footer {
+      display: none; }
+    .header__titulo .size-img_servicios {
+      height: 60px;
+      width: 60px; }
+    .header__titulo #main__contenedor {
+      padding-top: 2rem;
+      display: grid;
+      grid-template-columns: repeat(5, 60px);
+      grid-template-rows: 60px;
+      grid-template-areas: "main__contenedor__auditorias main__contenedor__monotributo main__contenedor__impuestos main__contenedor__pymes main__contenedor__domestico";
+      gap: 20px;
+      justify-content: center; }
+    .header__titulo .texto {
+      padding-top: 1rem;
+      padding-right: 1rem;
+      padding-left: 1rem; }
+    .header__titulo .main__contenedor__img {
+      padding-top: 0.5rem;
+      height: 300px;
+      width: 100%; }
+    .header__titulo .main__contenedor__img__nombre {
+      font-size: 1.5rem;
+      color: white;
+      position: absolute;
+      top: 25%;
+      left: 20%;
+      text-shadow: 10px 10px 10px black; }
+    .header__titulo .formulario {
+      display: flex;
+      flex-direction: column;
+      padding-left: 4rem;
+      padding-right: 4rem;
+      padding-top: 1rem;
+      padding-bottom: 0.6rem; }
+    .header__titulo .navbar-brand {
+      font-size: 23px;
+      color: #C5EDFF; }
+    .header__titulo .contenedor_descargas {
+      padding-left: 0rem;
+      padding-top: 3rem;
+      padding-right: 2rem;
+      text-decoration: none; } }
+
+/* FIN 425 PX */
